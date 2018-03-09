@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The git tutor project</title>
+</head>
+<body>
+
+	<form action="forms.php" method="post">
+		<div>
+			<label for="firstName">
+				FirstName:
+				<input type="text" name="firstName" id="firstName" placeholder="Please Enter your First Name">
+			</label>
+		</div>
+		<div>
+			<label for="lastName">
+				LastName:
+				<input type="text" name="lastName" id="lastName" placeholder="Please Enter your Last Name">
+			</label>
+		</div>
+		<div>
+			<label for="password">
+				Password:
+				<input type="password" name="password" id="password" placeholder="Enter Password">
+			</label>
+		</div>
+		<div>
+			<label for="retypePassword">
+				Retype-Password:
+				<input type="password" name="retypePassword" id="retypePassword">	
+			</label>
+		</div>
+		<div>
+			<label for="email">
+				E-mail Address:
+				<input type="email" name="email" id="email">
+			</label>
+		</div>
+		<div>
+			<label for="comments">Type your Comments Here: </label>
+			<textarea name="comments" id="comments" rows="5" cols="60">
+			</textarea>
+		</div>
+		
+		<div>
+			<label>Values:</label>
+			<select name="choiceNumbers" id="choiceNumbers" multiple="multiple">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+		</div>
+
+		<div>
+			<label>
+				<input type="checkbox" name="terms">
+				I agree to terms and conditions
+			</label>
+		</div>
+
+		<div>
+			
+		</div>
+		
+		<input type="submit" name="submit" id="submit">
+	</form>
+</body>
+</html>
